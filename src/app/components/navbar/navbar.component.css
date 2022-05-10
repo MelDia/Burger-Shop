@@ -1,0 +1,26 @@
+.navbar-brand {
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin: 0 20px 0 20px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active-link {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);;
+    text-decoration: none;
+    
+}

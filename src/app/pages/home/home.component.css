@@ -1,0 +1,101 @@
+.banner {
+    background-image: url('../../../assets/img/burger-banner.jpg');
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.content {
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.content a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.text-center {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.text-center span {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+.stepBox {
+    background-color: var(--secondary-color);
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.stepBox h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.stepBox p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/******************************/
+.foodbox {
+    padding: 10px 5px;
+}
+
+.foodbox img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.foodbox h1 {
+    font-size: 20px;
+    margin: 20px 0 0 5px;
+    font-weight: bold;
+}
+
+.foodbox p {
+    margin: 5px 0 8px 5px;
+}
+
+.viewmorebtn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 10px;
+    margin: 5px 0 8px 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .banner {
+        height: 700px;
+    }
+}

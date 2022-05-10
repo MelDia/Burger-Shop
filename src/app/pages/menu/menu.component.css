@@ -1,0 +1,42 @@
+.text-title {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.text-title span {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+.foodbox {
+    padding: 10px 10px;
+}
+
+.foodbox img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.foodbox h1 {
+    font-size: 20px;
+    margin: 20px 0 0 5px;
+    font-weight: bold;
+}
+
+.foodbox p {
+    margin: 5px 0 8px 5px;
+}
+
+.buybtn{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    margin: 5px 0 8px 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}

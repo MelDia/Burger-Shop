@@ -1,0 +1,21 @@
+.container h1 {
+    font-weight: bold;
+}
+
+span {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
